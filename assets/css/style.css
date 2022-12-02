@@ -71,7 +71,9 @@
     background-color: rgb(92, 80, 80);
     opacity: 0.3;
 }
- 
+ .d-block{
+    width: 100;
+ }
   
  
   
