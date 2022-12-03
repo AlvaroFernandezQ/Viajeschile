@@ -28,10 +28,31 @@
           $('html, body').animate( {scrollTop : 0}, 800 );
     
         });
+
+
+
     
       });
+
+      $(document).scroll(function(){
+        const Y = $("html").scrollTop();
+        
+        Y > 30 ? $("nav").addClass("navblack").fadeIn() : $("nav").removeClass("navblack")
+        
+            })
+
+            function alertar(texto) {
+              alert(texto);
+           }
+
     
+     
     })(jQuery);
+
+    
+   
+
+
 
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')

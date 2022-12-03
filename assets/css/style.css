@@ -7,9 +7,11 @@
     }
 .navbarmod{
     position: absolute;
-   
+    position: fixed;
     width: 100%;
     z-index: 999;
+    font-family: 'Nunito Sans', sans-serif;
+
 
 }
 .carouselmod{
@@ -18,31 +20,48 @@
 
 
 }
+.text-viaje{
+    font-size: larger;
+    font-family: 'Nunito Sans', sans-serif;
+}
 .logo{
     width: 3%;
 }
 .card-body{
     background-color: black;
     
+    
 }
+.h5{
+    font-family: 'Roboto', sans-serif;
+}
+.h4{
+    font-family: 'Roboto', sans-serif;
+}
+
 .alineado{
     text-align: start;
+    font-family: 'Nunito Sans', sans-serif;
     
 }
 .alineado2{
     text-align: start;
     background-color:rgb(37, 210, 210) ;
+    font-family: 'Nunito Sans', sans-serif;
+
     
     
 }
-.bgimg{
-    
-    font-size: 25px !important;
+.redes{
+    text-decoration: none;
+    color: aliceblue;
 }
+
 
 .tamanoicon{
     font-size: 2rem;
 }
+
 .scroll-top-btn{
     position: fixed;
     z-index: 999;
@@ -62,19 +81,21 @@
    
     
 }
-.scroll-top-btn:hover{
+.scroll-top-btn:hover{ 
     text-decoration:none;
     color: rgb(0, 0, 0);
   }
-  .navbar{
-    position: fixed;
-    background-color: rgb(92, 80, 80);
-    opacity: 0.3;
+.navblack{
+    background-color: rgb(92, 80, 80) ;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+    transition: all 0.9s ease-out ; 
+    
+    
+    
 }
- .d-block{
-    width: 100;
- }
-  
+ 
+
  
   
 
